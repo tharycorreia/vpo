@@ -1,0 +1,165 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+
+}
+
+#card1 {
+  height: 100vh;
+}
+
+#img-fundo {
+  position: absolute;
+  bottom: 0;
+}
+
+#img-logo-header {
+  position: absolute;
+  width: 40%;
+  margin-top: -30px;
+}
+
+#divisor1 {
+  height: 40%;
+  background: #169aa5;
+  transform: rotate(4deg);
+  margin-top: -5%;
+  width: 102%;
+  margin-left: -12px;
+  font-family: "Quicksand", sans-serif;
+}
+#divisor1 div {
+  transform: rotate(-4deg);
+  color: #fff;
+  padding-top: 3%;
+}
+#divisor1 h2 {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+#divisor1 h1 {
+  font-size: 6.5rem;
+  margin-top: -20px;
+  margin-left: -4px;
+}
+
+.subtext {
+  font-family: "Quicksand", sans-serif;
+}
+
+.text {
+  font-family: "Patua One", cursive;
+  text-transform: uppercase;
+}
+#card2 #text {
+  margin-top: 24%;
+}
+
+#card3 {
+  background: #169aa57a;
+  height: 55%;
+}
+
+#card3 #text {
+  margin-top: 12%;
+}
+
+#card4 {
+  margin-top: 15%;
+  background: #fafafa;
+
+}
+#img-match {
+  max-width: 42%;
+}
+
+#divisor2 {
+  background: #169aa57a;
+  height: 53%;
+  margin-top: -25%;
+}
+#card5 #text {
+  margin-top: 12%;
+}
+
+#divisor3 {
+  height: 40%;
+  background: #169aa5;
+  transform: rotate(-4deg);
+  margin-top: 6%;
+  width: 102%;
+  margin-left: -12px;
+  font-family: "Quicksand", sans-serif;
+}
+#divisor3 div {
+  transform: rotate(4deg);
+  color: #fff;
+  padding-top: 6%;
+}
+#divisor3 h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#divisor3 h1 {
+  font-size: 4rem;
+  margin-top: -20px;
+  margin-left: -4px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer {
+  background: #fafafa;
+}
+footer h3 {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+footer h4 {
+  display: flex;
+  justify-content: center;
+}
+.fonte {
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.store {
+    width: 43%;
+}
+
+.iconInsta {
+    width: 12%;
+    margin-top: -2px;
+}
+
+.iconFb {
+    width: 12%;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+footer h2 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+footer h3 {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
