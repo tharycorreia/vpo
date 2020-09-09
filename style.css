@@ -4,23 +4,23 @@ html {
   width: 100%;
   height: 100%;
   background: #fafafa;
-
 }
 
 body {
   width: 100%;
   height: 100%;
   background: #fafafa;
-
 }
 
 #card1 {
-  height: 100vh;
+  height: 900px;
+  padding: 0;
 }
 
 #img-fundo {
   position: absolute;
   bottom: 0;
+  width: 100vw;
 }
 
 #img-logo-header {
@@ -30,18 +30,18 @@ body {
 }
 
 #divisor1 {
-  height: 40%;
+  height: 400px;
   background: #169aa5;
-  transform: rotate(4deg);
+  /* transform: rotate(4deg); */
   margin-top: -5%;
-  width: 102%;
-  margin-left: -12px;
+  width: 100%;
+  /* margin-left: -12px; */
   font-family: "Quicksand", sans-serif;
 }
 #divisor1 div {
-  transform: rotate(-4deg);
+  /* transform: rotate(-4deg); */
   color: #fff;
-  padding-top: 3%;
+  padding-top: 6%;
 }
 #divisor1 h2 {
   font-size: 3rem;
@@ -62,23 +62,31 @@ body {
   font-family: "Patua One", cursive;
   text-transform: uppercase;
 }
+#card2 {
+  display: flex;
+}
 #card2 #text {
   margin-top: 24%;
 }
 
 #card3 {
   background: #169aa57a;
-  height: 55%;
+  height: 440px;
+  display: flex;
 }
+ .card-div  {
+   display: contents;
+ }
 
 #card3 #text {
-  margin-top: 12%;
+  margin-top: 14%;
 }
-
+.text-match {
+  margin-bottom: 9%;
+}
 #card4 {
-  margin-top: 15%;
+  margin-top: 12%;
   background: #fafafa;
-
 }
 #img-match {
   max-width: 42%;
@@ -86,24 +94,27 @@ body {
 
 #divisor2 {
   background: #169aa57a;
-  height: 53%;
-  margin-top: -25%;
+  height: 400px;
+  margin-top: -20%;
+}
+#card5 {
+  display: flex;
 }
 #card5 #text {
   margin-top: 12%;
 }
 
 #divisor3 {
-  height: 40%;
+  height: 315px;
   background: #169aa5;
-  transform: rotate(-4deg);
+  /* transform: rotate(-4deg); */
   margin-top: 6%;
-  width: 102%;
-  margin-left: -12px;
+  width: 100%;
+  /* margin-left: -12px; */
   font-family: "Quicksand", sans-serif;
 }
 #divisor3 div {
-  transform: rotate(4deg);
+  /* transform: rotate(4deg); */
   color: #fff;
   padding-top: 6%;
 }
@@ -134,32 +145,244 @@ footer h4 {
   justify-content: center;
 }
 .fonte {
-    font-family: "Quicksand", sans-serif;
-
+  font-family: "Quicksand", sans-serif;
 }
 
 .store {
-    width: 43%;
+  width: 43%;
 }
 
 .iconInsta {
-    width: 12%;
-    margin-top: -2px;
+  width: 12%;
+  margin-left: -14px;
+  margin-top: -2px;
 }
 
 .iconFb {
-    width: 12%;
-    margin-top: 0px;
-    margin-right: 5px;
+  width: 12%;
+  margin-top: 0px;
+  margin-right: 5px;
 }
 
 footer h2 {
-    font-size: 3rem;
-    font-weight: 300;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 footer h3 {
-    font-size: 4rem;
-    font-weight: bolder;
+  font-size: 4rem;
+  font-weight: bolder;
 }
 
+#ctt-footer {
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  #img-logo-header {
+    width: 55%;
+  }
+  #divisor1 h1 {
+    font-size: 5.5rem;
+  }
+  #divisor1 {
+    height: 300px;
+  }
+  #card2 #text {
+    margin-top: 16%;
+  }
+  #divisor2 {
+    height: 267px;
+  }
+  #divisor3 h2 {
+    font-size: 2.8rem;
+  }
+  #divisor3 div {
+    padding-top: 9%;
+}
+}
+
+@media (max-width: 768px) {
+  #img-logo-header {
+    width: 75%;
+  }
+  #divisor1 h1 {
+    font-size: 4.3rem;
+  }
+  #divisor1 {
+    height: 236px;
+  }
+  #card2 #text {
+    margin-top: 16%;
+  }
+  #divisor2 {
+    height: 200px;
+  }
+  #divisor3 h2 {
+    font-size: 2.8rem;
+  }
+  .text {
+    font-size: 2rem;
+  }
+  #card5 #text {
+    margin-top: 0;
+  }
+  footer h3 {
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+  footer h2 {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 414px) {
+  #img-logo-header {
+    width: 85%;
+    margin-top: 101px;
+  }
+  #card1 {
+    height: 730px;
+  }
+  #divisor1 h1 {
+    font-size: 3.5rem;
+
+    margin-top: -5px;
+    /* margin-left: -4px; */
+  }
+  #divisor1 h2 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+  #card2,
+  #card5 {
+    display: block;
+  }
+  #card3 {
+    display: block;
+    height: 933px;
+  }
+  #card2 #text {
+    margin-top: 9%;
+  }
+  #card3 #text {
+    margin-top: 13%;
+    padding-top: 50px;
+  }
+  #img-match {
+    max-width: 84%;
+  }
+  #divisor2 {
+    margin-top: -41%;
+  }
+  #card5 #text {
+    margin-top: 13%;
+  }
+  #divisor3 h2 {
+    font-size: 2rem;
+  }
+  #divisor3 h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  #divisor3 {
+    height: 246px;
+  }
+  footer h3 {
+    font-size: 2.3rem;
+  }
+  footer h2 {
+    font-size: 1.5rem;
+  }
+  .store {
+    width: 97%;
+  }
+  #ctt-footer {
+    display: block;
+  }
+  #insta {
+    margin-left: 14%;
+  }
+  #fb {
+    margin-left: 12%;
+  }
+}
+
+@media (max-width: 375px) {
+  #divisor1 h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  #divisor1 h1 {
+    text-align: center;
+  }
+  footer h2 {
+    font-size: 1.3rem;
+  }
+  #card1 {
+    height: 665px;
+  }
+}
+@media (max-width: 375px) {
+  .text {
+    font-size: 1.5rem;
+}
+  #card1 {
+    height: 639px;
+  }
+  #divisor1 div {
+    padding-top: 10%;
+  }
+  .subtext {
+    font-size: 1.4rem;
+  }
+  #card3 {
+    height: 756px;
+}
+
+}
+@media (max-width: 320px) {
+  footer h2 {
+    font-size: 1.1rem;
+  }
+  #card1 {
+    height: 572px;
+  }
+  #divisor1 h2 {
+    font-size: 1.6rem;
+  }
+  #divisor1 h1 {
+    font-size: 3rem;
+  }
+  #divisor1 div {
+    padding-top: 16%;
+  }
+  .subtext {
+    font-size: 1.6rem;
+  }
+  #card3 {
+    height: 755px;
+  }
+  #insta {
+    margin-left: 5%;
+  }
+  #fb {
+    margin-left: 3%;
+  }
+  .iconInsta {
+    width: 15%;
+    margin-left: -15px;
+    margin-top: -2px;
+  }
+  #divisor3 h1 {
+    font-size: 2.5rem;
+    margin-top: 19px;
+  }
+  #divisor3 h2 {
+    font-size: 1.8rem;
+  }
+  footer h3 {
+    font-size: 1.2rem;
+  }
+}
